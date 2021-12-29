@@ -1,5 +1,5 @@
 """
-File Name   : paho_mqtt_publish_test.py
+File Name   : paho_mqtt_subscribe_test.py
 
 Author      : Kevin Tom
               Teaching Assistant - Fall 2021
@@ -15,13 +15,12 @@ IDE Used    : Thonny Python IDE
 
 Date        : 23 December 2021
 
-Version     : 1.2
+Version     : 1.0
             
-Description : This python program is a skeleton program which publishes a random number
-              to a topic called 'apt_boulder/temp1' in sample MQTT broker 'mqtt.eclipse
-              projects.io'. After publishing the published value is printed, then the p
-              rogram goes to sleep for 2 secnds (This might vary a little). The program
-              publishes data to topic every 2 seconds.
+Description : This python program subcribe to a topic in the specified broker
+              and prints the value received from the broker. The program also
+              prints connection code which will help determine how the client
+              gets coinnected. The follwing code
               
 Reference   : MQTT Setup Guide slides by Prof. Benjamin Spriggs
               Paho MQTT Documentation : https://pypi.org/project/paho-mqtt/

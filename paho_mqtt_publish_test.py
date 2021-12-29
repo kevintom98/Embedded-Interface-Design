@@ -34,7 +34,7 @@ import paho.mqtt.client as mqtt
 #Importing random library 
 from random import uniform
 
-#Imporiting time library
+#Importing time library
 import time
 
 #Test borker to which this program will be connecting

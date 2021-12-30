@@ -1,4 +1,5 @@
 """
+-----------------------------------------------------------------------------------------------------
 File Name   : paho_mqtt_subscribe_test.py
 
 Author      : Kevin Tom
@@ -22,20 +23,21 @@ Description : This python program subcribe to a topic in the specified broker
               prints connection code which will help determine how the client
               gets connected. The follwing code will be returned,
 
-                    0x00  -  Connection Accepted
-                    0x01  -  Connection Refused, unacceptable protocol version
-                    0x02  -  Connection Refused, identifier rejected
-                    0x03  -  Connection Refused, Server unavailable
-                    0x04  -  Connection Refused, bad user name or password
-                    0x05  -  Connection Refused, not authorized
-                    6-255 - Reserved for future use
+                1.0x00   -  Connection Accepted
+                2.0x01   -  Connection Refused, unacceptable protocol version
+                3.0x02   -  Connection Refused, identifier rejected
+                4.0x03   -  Connection Refused, Server unavailable
+                5.0x04   -  Connection Refused, bad user name or password
+                6.0x05   -  Connection Refused, not authorized
+                7.6-255  -  Reserved for future use
                     
               
-Reference   : MQTT Setup Guide slides by Prof. Benjamin Spriggs
-              Paho MQTT Documentation : https://pypi.org/project/paho-mqtt/
-              MQTT Connection :
-              https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718035
+Reference   : ->MQTT Setup Guide slides by Prof. Benjamin Spriggs
+              ->Paho MQTT Documentation : https://pypi.org/project/paho-mqtt/
+              ->MQTT Connection :
+                https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718035
 
+-----------------------------------------------------------------------------------------------------
 """
 
 #Importing the MQTT client library

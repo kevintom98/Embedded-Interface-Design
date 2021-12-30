@@ -1,4 +1,5 @@
 """
+------------------------------------------------------------------------------------------------
 File Name   : paho_mqtt_publish_test.py
 
 Author      : Kevin Tom
@@ -26,6 +27,7 @@ Description : This python program is a skeleton program which publishes a random
 Reference   : MQTT Setup Guide slides by Prof. Benjamin Spriggs
               Paho MQTT Documentation : https://pypi.org/project/paho-mqtt/
 
+------------------------------------------------------------------------------------------------
 """
 
 #Importing the MQTT client library
